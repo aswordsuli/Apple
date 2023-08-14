@@ -1,0 +1,168 @@
+#!/bin/bash 
+
+: '
+
+#1. Write a script that prints the message "hello world"
+echo " 1- Hello world" 
+
+#2. Write a script that prints the message " hello AWS Re/Start "
+
+echo "2-  Hello AWS Re/Start" 
+
+#3. Write a script that prints the message "hello" and "this is the working
+#directory:" (print the current directory the script is being ran from-
+
+echo "3-  hello ,this is the working directory $PWD " 
+
+#4. Write a script that prints the message "goodday this is the user home
+#dir:" (print the user home directory-
+echo "4- echo this is home directory $HOME"
+
+#5. Write a script that prints the message "this is the user shell " (print
+#the user shell-
+echo " 5 -hello this is the users shell :  $SHELL"
+#6. Write a script that prints the message hello and the user name (the
+#user that currently logged in-
+echo " 6  hello this is the user name $USER" 
+
+#7. Set a value 7 to variable a, print it out as a variable
+
+a=7
+echo  "7 - $a "  
+#8. Set a Value 77 to Variable b, print it out as a Variable
+
+b=77
+echo "8- $b" 
+
+#9. Set a Value Hola to Variable c , print it out as a Variable
+c=hola
+
+echo "9-  $c" 
+
+
+#10. Set a Value Hello to Variable c , print it out as a Variable
+c=hello
+
+echo "10- $c" 
+
+#11. Set a Value World to Variable d . print it out as a Variable
+
+d=world
+echo "11- $d" 
+#12. Set a Value “Hello” and “World” in two Variable as following, Print
+#out variables c & d.
+
+c=Hello 
+d=world
+echo "12- $c $d" 
+
+
+#13. Write a script that output “Hello” and “Who take my chocolate” in
+#two separated lines.
+
+echo -e " 13- Hello \n  13- who ate my choclate "
+#14. Write a script “Hello” and “where is my chocolate?” and “dont make
+#me cry” in three separated lines.
+echo -e " 14- Hello \n 14- who ate my choclate \n 14- dont make me cry "
+#15. Write a script that ask the user his favorite color and print it.
+
+read -p  "what is your favorite color:  " color
+
+echo " 15- $color " 
+
+
+#17. Write a script that ask the user his Mother’s name and print it
+
+read -p "what is your mother name:   "  mother 
+
+echo " 17- $mother " 
+#18. Write a script that ask the user his Father’s name and print it.
+read -p "what is your father name:  " father     
+
+echo " 18- $father "
+
+#19. Write a script that ask the user his First Pet’s name and print it.
+read -p  "what is your First pet name:  " pet
+
+echo " 19- $pet "
+
+#20. Write a script that ask the user his favorite team color name and
+#print it.
+read -p "what is your favorite team color name: " color 
+
+echo " 20- $color " 
+
+#21. write a script that asks the user for his age. store the value in
+#the variable age (use read -p- and echo it
+
+read -p "what is your age:   " age 
+echo "21- $age"
+
+
+
+#22. write a script that receives a single external argument and echos
+#the argument.
+
+echo " 22-- $1" 
+
+
+ 
+#23. write a script that receives argument (arg- for the user to enter
+#his/er name and then ask for their age and store both answers in
+#variables and echo them.
+
+read -p "what is your name: " name 
+read -p "what is your age: " age 
+echo "23- $name $age " 
+
+
+
+
+
+#24. Script - Receive external argument (arg - from the user of his
+#Grandma’s name and print it out.
+
+echo "24-- grandma name: $1" 
+
+
+
+
+#25. Script - Receive external argument (arg - from the user his first &
+#grandma name as two variables and print it out.
+
+first=$1
+last=$2
+
+echo "25-- $first $last "
+
+
+
+#26. Script - Receive external argument (arg - from the user his Grandpa
+#& Grandma as two variables and print it out.
+
+grandpa=$1
+grandma=$2
+
+echo "26-- $grandpa $grandma "
+
+#27. Execute script that echos your script file name.
+
+echo "27-- $0"
+
+#28. Script - Receive from the user arguments (arg - of their favorite
+#4 numbers but echos the second and the fourth numbers.
+
+
+echo "28-- $2 $4"
+
+#29. Script - Receive the user arguments (arg- their favorite 3 pets 
+#echos the pet names and amount.
+echo "29-- per1:$1 pet2:$2 pet3:$3 total $# " 
+
+#30. Script - prints the process number and script name
+
+echo "30-- $$ $0" 
+
+'
+####################################################################################################
+

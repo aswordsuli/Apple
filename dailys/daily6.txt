@@ -1,0 +1,48 @@
+
+ 1975  mkdir -p cellullar/{samsung/{note,galaxy,flip},apple/{pro-max,xr,pro}}
+ 1976  tree cellullar/
+ 1977  mv cellullar/samsung/flip/ cellullar/samsung/a_serie 
+ 1978  tree cellullar/
+ 1979  cd ~/Desktop/cellullar/apple/ 
+ 1980  pwd
+ 1981  cd .. 
+ 1982  cd cellullar/samsung/note/
+ 1983  ls cellullar/apple 
+ 1984  ls ~/Desktop/cellullar/apple 
+ 1985  touch file.txt
+ 1986  cp file.txt ~/Desktop/cellullar/apple/xr/
+ 1987  mv ~/Desktop/cellullar/apple/xr/file.txt ~/Desktop/cellullar/samsung/
+ 1988  cd ~/Desktop/cellullar/
+ 1989  touch text.txt 
+ 2003  echo -e "Hello,
+it's me
+I was wondering if after all these years you'd like to meet
+To go over everything
+They say that time's supposed to heal ya, but I ain't done much healing
+Hello, can you hear me?
+I'm in California dreaming about who we used to be
+When we were younger and free
+I've forgotten how it felt before the world fell at our fee
+Hello
+hello
+it's me" > text.txt 
+ 2004  cat text.txt 
+ 2006  wc -w text.txt 
+ 2011  grep -E '*California*' text.txt 
+ 2012  grep -c 'hello' text.txt 
+ 2015  grep -i 'california' text.txt 
+ 2016  cd .. 
+ 2017  rm -r cellullar/
+ 2018  clear
+ 2019  history
+ 2020  history > daily6.txt
+ 
+ 
+ _______________________________________________________________________________________________________________________________________
+ 
+ df -h / 
+ du -sh 
+ du -h --max-depth=1 | sort -rh | head -n 6 
+ df -h / | awk 'NR==2 {print$4}' 
+df -h | grep -v 'tmfps' 
+

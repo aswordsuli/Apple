@@ -1,0 +1,38 @@
+1. Create the directory as shown above.
+mkdir -p cloud/{services/{cloudtrail},region/
+{availabillity_zone,localzone}}
+
+2. Go to “localzone” in absolute path
+cd ~/Desktop/cloud/region/localzone 
+
+3. Add a new dir “cloudwatch” under “services” from your current dir in a relative path.
+mkdir ~/Desktop/services/cloudwatch 
+
+4. Add a new dir “wavelengthzone” under “localzone” from your current dir in absolute path.
+mkdir cd ~/Desktop/cloud/region/localzone/wavelengthzone 
+
+Insert the text to a file “trailvswatch” under “cloudtrail” in relative path
+Text = “ 
+
+echo "The Difference between CloudWatch and CloudTrail: CloudWatch focuses on the activity
+of AWS services and resources, reporting on their health and performance. On the other
+hand, CloudTrail is a log of all actions that have taken place inside your AWS
+environment" > ~/cloud/services/cloudtrail/trailvswatch.txt
+
+6. Copy the file ““trailvswatch” to “cloudwatch” in absolute path (hint: use tilde ~). 
+
+cp ~/cloud/services/cloudtrail/trailvswatch.txt ~/cloud/services/cloudwatch/trailvswatch.txt
+ 
+  use the echo command with tilde to print the path of your home directory 
+  
+  echo ~ 
+  
+  9. Delete the “cloud” directory 
+  
+  rm -r cloud 
+  
+  
+  _____________________________________________________________
+  
+  
+  
