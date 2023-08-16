@@ -135,6 +135,10 @@ fi
 # 12. Write a script that Request from the user to input two
 # numbers, substract between two the numbers and echo the
 # result.(validate each inputs are a number)
+
+read -p ""
+
+
 # 13. Write a script that receives two args and do multiplication
 # between them and echo the result (only two validate args).
 # 14. Write a script that receives two args and do Division
